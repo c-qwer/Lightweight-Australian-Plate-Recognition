@@ -46,7 +46,6 @@ Extract to ./dataset/train/
 Manually remove non-standard / stylized characters not visually aligned with Victorian plates
 
 ## Project Structure
-## Project Structure
 
 ```
 .
@@ -60,9 +59,9 @@ Manually remove non-standard / stylized characters not visually aligned with Vic
 ├── char_cnn.pth      # Trained model weights  
 ```
 
-## Project Structure
+## Usage
 python main.py
-Ensure test images are in ./test_img. Annotated results will be saved to ./output.
+Ensure images of car are in ./input. Annotated results will be saved to ./output.
 
 ## Acknowledgement
 
