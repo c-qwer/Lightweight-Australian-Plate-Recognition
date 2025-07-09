@@ -46,19 +46,19 @@ Extract to ./dataset/train/
 Manually remove non-standard / stylized characters not visually aligned with Victorian plates
 
 ## Project Structure
-···
+## Project Structure
 
+```
 .
-├── train.py              # Training script
-├── main.py               # Main entry for prediction & visualization
-├── preprocess.py         # Contour detection and filtering logic
-├── chopped.py            # Postprocessing (resizing, border fixing, etc.)
-├── dataset/              # Directory for /train and /test directories
-├── input/                # Directory for input images to be recognized
-├── output/               # Inference results with annotated predictions
-└── char_cnn.pth          # Trained model weights
-
-···
+├── train.py          # Training script  
+├── main.py           # Main entry for prediction & visualization  
+├── preprocess.py     # Contour detection and filtering logic  
+├── chopped.py        # Postprocessing (resizing, border fixing, etc.)  
+├── dataset/          # Directory for /train and /test directories  
+├── input/            # Directory for input images to be recognized  
+├── output/           # Inference results with annotated predictions  
+├── char_cnn.pth      # Trained model weights  
+```
 
 ## Project Structure
 python main.py
