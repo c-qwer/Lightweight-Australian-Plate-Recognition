@@ -47,6 +47,7 @@ Manually remove non-standard / stylized characters not visually aligned with Vic
 
 ## Project Structure
 ···
+
 .
 ├── train.py              # Training script
 ├── main.py               # Main entry for prediction & visualization
@@ -56,6 +57,7 @@ Manually remove non-standard / stylized characters not visually aligned with Vic
 ├── input/                # Directory for input images to be recognized
 ├── output/               # Inference results with annotated predictions
 └── char_cnn.pth          # Trained model weights
+
 ···
 
 ## Project Structure
