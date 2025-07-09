@@ -12,13 +12,17 @@ Useful for OCR preprocessing, vehicle Access Control System, or embedded vehicle
 
 ## Example
 **Input Image 1:**
+
 ![Input](examples/input_1.png)
 
 **Predicted Output 1:**
+
 ![Output](examples/output_1.png)
 
 **Input Image 2:**
+
 ![Input](examples/input_2.jpg)
 
 **Predicted Output 2:**
+
 ![Output](examples/output_2.jpg)
