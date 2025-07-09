@@ -6,7 +6,7 @@ This project implements a character recognition pipeline for license plates usin
 
 ## Features
 - End-to-end character recognition pipeline
-- CNN-based classifier using TinyCNN architecture
+- CNN-based classifier
 - Noise-resilient image preprocessing & augmentation
 - Batch prediction and automatic annotation
 - Tailored for **Australian license plates**
