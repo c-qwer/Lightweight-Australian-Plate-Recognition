@@ -128,7 +128,7 @@ def draw_plate_label(image, plate_text, position='bottom', font_scale=1.2):
 
 # Entry point: read and predict all images in input folder
 if __name__ == "__main__":
-    input_folder = "./test_img"
+    input_folder = "./input"
     output_folder = "./output"
     model_path = "char_cnn.pth"
     if not os.path.exists(output_folder):
